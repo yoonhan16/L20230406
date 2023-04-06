@@ -14,6 +14,9 @@ int main()   // entry point 이거 없으면 뭘 해도 안됨
 	FSlime* Slime = new FSlime();
 
 	Player->Move();
+	Goblin->Move();
+	Slime->Move();
+
 
 	delete Player;                               // 플레이어가 죽은 경우
 
