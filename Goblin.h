@@ -5,6 +5,10 @@ class FGoblin : public FCharacter
 {
 public:
 
+	FGoblin();
+	virtual ~FGoblin();
 
+	virtual void Move() override;
+	virtual void Attack() override;
 };
 

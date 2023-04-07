@@ -5,8 +5,10 @@ class FSlime : public FCharacter
 {
 public:
 
+	FSlime();
+	virtual ~FSlime();
 
-
-
+	virtual void Move() override;
+	virtual void Attack() override;
 };
 

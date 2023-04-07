@@ -5,7 +5,10 @@ class FWildBoar : public FCharacter
 {
 public:
 
+	FWildBoar();
+	virtual ~FWildBoar();
 
-
+	virtual void Move() override;
+	virtual void Attack() override;
 };
 
